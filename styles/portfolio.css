@@ -18,7 +18,7 @@ body {
 
 .section-title {
     color: #181818;
-    text-align:center;
+    text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
@@ -115,11 +115,30 @@ nav a {
 }
 
 /*main section*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin-top: 130px ;
+    margin-top: 130px;
     margin-bottom: 130px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-info {
+    text-align: center;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    
 }
